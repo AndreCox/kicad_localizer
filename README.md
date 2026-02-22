@@ -65,13 +65,3 @@ This makes the project safe to zip, move, or push to Git — it will open correc
 - 🔁 **Refactoring**: Rewrites absolute paths in `.kicad_pcb` to relative references such as `${KIPRJMOD}/local_libs/3d/filename.step`.
 
 > 💡 Pro tip: Add `local_libs/` to your repository so clones include the exact parts you used. Avoid committing your global KiCad library paths.
-
----
-
-## ✅ Want more?
-
-- Add a `requirements.txt` for reproducible installs.
-- I can add a minimal example project to test the script end-to-end.
-- I can also add a one-line Git pre-commit check to ensure `local_libs/` is present.
-
-If you'd like any of the above, tell me which and I'll add it.
